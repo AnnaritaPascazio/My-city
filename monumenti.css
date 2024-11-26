@@ -1,0 +1,27 @@
+img{
+    text-align: left;
+    padding:0px;
+}
+html{
+    color:black;
+}
+h1,h2,h3{
+    color:blue;
+}
+nav{
+    color:white;
+}
+link{
+    color:black;
+}
+.container{
+    max-width: 1200px;
+    margin: 60px auto;
+    text-align: left;
+    padding-right: 0px;
+}
+.container .box img{
+    width: 30%;
+    height: 75%;
+    width: 200px;
+}

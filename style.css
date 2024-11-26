@@ -1,0 +1,62 @@
+img{
+    text-align: left;
+    padding:0px;
+}
+html{
+    color:green;
+}
+h1{
+    color:blue;
+}
+nav{
+    color:white;
+}
+link{
+    color:black;
+}
+html{
+    background-image: url('modugno-puglia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+}
+a{
+    color:white;
+}
+p{
+    font-weight: bold;
+    text-align: left;
+    color:black;
+}
+.registrati-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #FFFF;
+    font-weight: bold;
+    background-color: #173753;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+button{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+h2,h3{
+    color:blue;
+}
+.riassunto{
+    text-align: left;
+}
+
