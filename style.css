@@ -28,12 +28,9 @@ html{
     flex-direction: column;  
 }*/
 
-
 p{
     text-align: center;
 }
-
-
 .registrati-link {
     position: absolute;
     top: 10px;
@@ -48,7 +45,7 @@ p{
 }
 button{
     border: none;
-    background-color: blue;
+    background-color: lightblue;
     color: white;
     padding: 8px 16px;
     text-align: center;

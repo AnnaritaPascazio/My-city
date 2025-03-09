@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="logo-modugno.gif" type="image/x-icon">
+<img src="logo-modugno.gif">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina di Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Accedi</h2>
+        <form action="/action_page.php" method="post">
+            <label for="uname"><b><br>Email<br></b></label>
+            <input type="text" placeholder="Inserisci Indirizzo" name="uname" required>
+
+            <label for="psw"><b><br>Password<br></b></label>
+            <input type="password" placeholder="Inserisci Password" name="psw" required>
+
+            <br><button type="submit">Login</button><br>
+            <div class="psw">
+                <a href="recupero-password.html">Password dimenticata?</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
