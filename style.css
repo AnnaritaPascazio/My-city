@@ -2,32 +2,38 @@ img{
     text-align: left;
     padding:0px;
 }
-html{
-    color:green;
-}
-h1{
+/*h1{
     color:blue;
+    top: 10;
+    position: absolute;
 }
+*/
+
 nav{
     color:white;
+    position: absolute;
+    left: -17;
 }
-link{
-    color:black;
-}
+
 html{
     background-image: url('modugno-puglia.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    color:black;
 }
-a{
+
+/*#link{
     color:white;
-}
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;  
+}*/
+
+
 p{
-    font-weight: bold;
-    text-align: left;
-    color:black;
+    text-align: center;
 }
+
+
 .registrati-link {
     position: absolute;
     top: 10px;
@@ -60,3 +66,20 @@ h2,h3{
     text-align: left;
 }
 
+h1{
+    position: absolute;
+    top: 0px; /* Posizionato in alto */
+    left: 50%; /* Centra orizzontalmente */
+    transform: translateX(-50%); /* Corregge il centraggio rispetto alla larghezza */
+    margin: 0; /* Rimuove margini di default */
+    color: blue;
+}
+
+#modugno1 {
+    position: absolute;
+    top: 40; /* Posiziona in alto */
+    left: 50%; /* Centra orizzontalmente */
+    transform: translateX(-50%); /* Centra rispetto al proprio larghezza */
+    padding: 20px;
+    text-align: center;
+}
